@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Dependências de build (Next.js)
+.next/
+out/
+
+# Arquivos de configuração de editor
+.vscode/
+.idea/
+
+# Arquivos temporários
+.DS_Store  # Arquivos do macOS
+Thumbs.db  # Arquivos do Windows
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos gerados pelo TypeScript
+*.tsbuildinfo
+
+# Dependências do TypeScript
+tsconfig.tsbuildinfo
+
+# Logs do sistema
+*.log
+
+# Pastas de build específicas de IDEs
+/.cache/
+
+# Arquivos gerados por testes de CI/CD
+coverage/
