@@ -1,4 +1,3 @@
-// pages/tools.tsx
 import Header from '../components/Header'; // Importe o Header
 import Footer from '../components/Footer'; // Importe o Footer
 

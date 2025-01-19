@@ -5,3 +5,83 @@
   overflow: hidden;
 }
 
+.profileContainer {
+  position: absolute;
+  bottom: 180px; /* Ajusta a posição vertical para cobrir parte da capa */
+  right: 50%;
+  transform: translateX(-60%);
+  overflow: hidden;
+}
+
+.profileImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 3%;
+  border: 4px solid #e0e0e0;
+  object-fit: cover;
+}
+
+.profileDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 550px;
+  margin-top: 20px; 
+  color: #6F2DBD;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Nome Daniel Sampaio */
+.name {
+  font-weight: 600; /* SemiBold */
+  font-size: 2.7rem;
+  line-height: 1.2; 
+}
+
+/* Nome Sampas */
+.nickname {
+  font-weight: 500; /* Medium */
+  font-size: 2.7rem;
+  color: #6F2DBD;
+  line-height: 1.2; 
+}
+
+/* Nome @sampasx */
+.username {
+  font-weight: 400; /* Regular */
+  font-size: 1.7rem;
+  color: #6F2DBD;
+  line-height: 1.2; 
+}
+
+/* Descrição Profissional */
+.profession {
+  font-weight: 500; /* Medium */
+  font-size: 2rem;
+  color: #6F2DBD;
+  line-height: 2; 
+}
+
+/* Cor do caractere "|" */
+.separator {
+  color: #00EF12;
+  font-weight: 500;
+  
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin-top: 300px;
+  color: #6F2DBD;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.midName {
+  font-weight: 600; /* SemiBold */
+  font-size: 2.7rem;
+  line-height: 1.2; 
+}

@@ -21,6 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rajdhani', sans-serif; /* Fonte específica para títulos */
   font-weight: bold;
+  color:#5a2d99;
 }
 
 a {
