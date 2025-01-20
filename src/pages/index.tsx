@@ -1,25 +1,24 @@
-import Header from '../components/Header'; // Importe o Header
-import Footer from '../components/Footer'; // Importe o Footer
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Landing.module.css';
 import Head from 'next/head';
+import Link from 'next/link';
 
-const Initial = () => {
+const Landing = () => {
   return (
     <div>
       <Head>
-      <title>Samportfólio</title>
-      <meta name="description" content="Portfólio do Sampas (apenas, você sabe)" />
-      <link rel="icon" href="/icons/mindsamp.png" />
+        <title>Samportfólio</title>
+        <meta name="description" content="Portfólio do Sampas (apenas, você sabe)" />
+        <link rel="icon" href="/icons/mindsamp.png" />
       </Head>
 
-      <main>
-        <div className={styles.landingPage}>
-          <p className={styles.midName}>Esse é o Samportfólio!</p>
-        </div>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Esse é o Samportfólio</h1>
+        <Link href="/home">
+          <button className={styles.button}>Acessar</button>
+        </Link>
       </main>
-
     </div>
   );
 };
 
-export default Initial;
+export default Landing;

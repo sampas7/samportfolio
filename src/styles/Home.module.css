@@ -79,7 +79,7 @@
   max-width: 75%; /* Define uma largura máxima para a caixa */
   margin-left: auto; /* Centraliza horizontalmente */
   margin-right: auto; /* Centraliza horizontalmente */
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .title {
@@ -93,7 +93,7 @@
 }
 
 .description {
-  font-family: 'Inter', sans-serif; /* Fonte para o texto */
+  font-family: 'Inter', sans-serif;
   font-size: 1rem; /* Tamanho do texto */
   color: #000000; /* Cor do texto */
   line-height: 1; /* Espaçamento entre as linhas */

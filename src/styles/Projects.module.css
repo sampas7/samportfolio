@@ -1,0 +1,85 @@
+.titleText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 150px;
+    color: #6F2DBD;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .titlePage {
+    font-weight: 800;
+    font-size: 2.7rem;
+    line-height: 1.2;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4); /* Sombra leve */
+  }
+
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 caixas por linha */
+    gap: 40px; /* Espaçamento entre as caixas */
+    padding: 30px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.projectBox {
+    background-color: #432F57; /* Cor de fundo das caixas */
+    border: 6px solid transparent; /* Borda transparente inicialmente */
+    padding: 20px;
+    color: white; /* Cor do texto dentro das caixas */
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 300px; /* Altura das caixas */
+    width: 100%;
+    box-sizing: border-box;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    animation: borderAnimation 2s linear infinite; /* Animação contínua */
+    margin-bottom: 70px;
+
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-image: linear-gradient(45deg, #00EF12, #7D54F7) 1;
+        border-radius: 10px; /* Mantém o arredondamento da borda */
+    }
+    25% {
+        border-image: linear-gradient(135deg, #00EF12, #7D54F7) 1;
+        border-radius: 10px; /* Mantém o arredondamento da borda */
+    }
+    50% {
+        border-image: linear-gradient(225deg, #00EF12, #7D54F7) 1;
+        border-radius: 10px; /* Mantém o arredondamento da borda */
+    }
+    75% {
+        border-image: linear-gradient(315deg, #00EF12, #7D54F7) 1;
+        border-radius: 10px; /* Mantém o arredondamento da borda */
+    }
+    100% {
+        border-image: linear-gradient(45deg, #00EF12, #7D54F7) 1;
+        border-radius: 10px; /* Mantém o arredondamento da borda */
+    }
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem; /* Tamanho maior para o título */
+    font-weight: bold;
+    color: #ffffff; /* Cor do título */
+    margin-bottom: 50px; /* Espaço entre o título e a descrição */
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem; /* Tamanho menor para a descrição */
+    font-weight: bold;
+    color: #ffffff; /* Cor da descrição */
+    line-height: 1.5; /* Altura das linhas para melhor legibilidade */
+}
