@@ -70,6 +70,37 @@
   
 }
 
+.aboutMe {
+  background-color: #d5d5d5; /* Cor do fundo */
+  border-radius: 3px; /* Bordas arredondadas */
+  padding: 2rem; /* Espaçamento interno */
+  margin-top: 2rem; /* Espaçamento superior */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar */
+  max-width: 75%; /* Define uma largura máxima para a caixa */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: 'Rajdhani', sans-serif; /* Fonte do título */
+  font-size: 1.8rem; /* Tamanho do título */
+  font-weight: 700; /* Negrito */
+  color: #000000; /* Cor do texto */
+  margin-bottom: 1rem; /* Espaçamento abaixo do título */
+  text-align: left; /* Alinhado à esquerda */
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4); /* Sombra leve */
+}
+
+.description {
+  font-family: 'Inter', sans-serif; /* Fonte para o texto */
+  font-size: 1rem; /* Tamanho do texto */
+  color: #000000; /* Cor do texto */
+  line-height: 1; /* Espaçamento entre as linhas */
+  text-align:  left; 
+}
+
+
 .landingPage {
   display: flex;
   flex-direction: column;

@@ -6,11 +6,11 @@ import '../styles/globals.css';
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <Header />
+
       <main>
         <Component {...pageProps} />
       </main>
-      <Footer />
+
     </>
   );
 };

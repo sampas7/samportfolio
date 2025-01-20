@@ -42,6 +42,16 @@ const Home = () => {
         <p className={styles.profession}>Desenvolvedor Back-End, Criador de Ideias e Artista</p>
       </div>
 
+      <section className={styles.aboutMe}>
+        <h2 className={styles.title}>Sobre mim: o Dev e o Artista.</h2>
+        <p className={styles.description}>
+          Bom, eu sou o Sampas, mas algumas pessoas me conhecem como Daniel Sampaio (ou seria o contrário?).<br /><br />
+          Movido por ideias e desafios, sempre busco transformar pensamentos em algo único, seja escrevendo linhas de código ou linhas de rap. Minha paixão está no equilíbrio entre tecnologia e criatividade, onde cada projeto é uma extensão de quem eu sou.<br /><br />
+          Atualmente estou cursando Bacharelado em Sistemas de Informação pelo IF Baiano - Campus Itapetinga. Minha preferência é pelo back-end, onde trabalho com tecnologias como Node.js, Java e Python. Também tenho experiência com TypeScript e estou sempre buscando aprender mais e melhorar minhas habilidades. Mesmo assim, gosto de explorar o front-end quando necessário, trabalhando com o Figma para design e prototipação de telas e utilizando React e Next.js para entregar experiências completas.<br /><br />
+          Pra mim, cada linha de código é uma peça de algo maior. Mais que resolver problemas, eu quero criar soluções que tenham impacto e façam sentido.
+        </p>
+      </section>
+
       </main>
       <Footer />
     </div>

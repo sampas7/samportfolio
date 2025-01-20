@@ -12,13 +12,12 @@ const Initial = () => {
       <link rel="icon" href="/icons/mindsamp.png" />
       </Head>
 
-      <Header />
       <main>
         <div className={styles.landingPage}>
           <p className={styles.midName}>Esse é o Samportfólio!</p>
         </div>
       </main>
-      <Footer />
+
     </div>
   );
 };
