@@ -76,7 +76,7 @@
   padding: 2rem; /* Espaçamento interno */
   margin-top: 2rem; /* Espaçamento superior */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar */
-  max-width: 75%; /* Define uma largura máxima para a caixa */
+  max-width: 72%; /* Define uma largura máxima para a caixa */
   margin-left: auto; /* Centraliza horizontalmente */
   margin-right: auto; /* Centraliza horizontalmente */
   margin-bottom: 70px;
@@ -89,7 +89,7 @@
   color: #000000; /* Cor do texto */
   margin-bottom: 1rem; /* Espaçamento abaixo do título */
   text-align: left; /* Alinhado à esquerda */
-  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4); /* Sombra leve */
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2); /* Sombra leve */
 }
 
 .description {
