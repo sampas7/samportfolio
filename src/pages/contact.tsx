@@ -1,5 +1,6 @@
 import Header from '../components/Header'; // Importe o Header
 import Footer from '../components/Footer'; // Importe o Footer
+import styles from '@/styles/Contact.module.css';
 import Head from 'next/head';
 
 const Contact = () => {
@@ -13,7 +14,9 @@ const Contact = () => {
 
       <Header />
       <main>
-        {/* Conteúdo da página de contato será adicionado futuramente */}
+        <div className={styles.titleText}>
+          <p className={styles.titlePage}>Dúvidas, ideias ou um papo descontraído? Me chama aí!</p>
+        </div>
       </main>
       <Footer />
     </div>
