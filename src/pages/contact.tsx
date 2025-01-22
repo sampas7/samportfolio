@@ -1,5 +1,5 @@
-import Header from "../components/Header"; // Importe o Header
-import Footer from "../components/Footer"; // Importe o Footer
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import React, { useState } from "react";
 import styles from "@/styles/Contact.module.css";
 import Head from "next/head";
@@ -93,23 +93,31 @@ const Contact = () => {
           <h2 className={styles.title}>Confira minhas outras redes</h2>
           <div className={styles.socialMedia}>
             <div className={styles.socialItem}>
-              <img src="/icons/LinkedIn.svg" alt="LinkedIn" className={styles.icon} />
-              <span>/in/dsampaior</span>
+              <a href="https://www.linkedin.com/in/dsampaior" target="_blank" rel="noopener noreferrer">
+                <img src="/icons/LinkedIn.svg" alt="LinkedIn" className={styles.icon} />
+                <span>LinkedIn</span>
+              </a>
             </div>
             <div className={styles.socialItem}>
-              <img src="/icons/tool12.svg" alt="Github" className={styles.icon} />
-              <span>/sampas7</span>
+              <a href="https://github.com/sampas7" target="_blank" rel="noopener noreferrer">
+                <img src="/icons/tool12.svg" alt="Github" className={styles.icon} />
+                <span>GitHub</span>
+              </a>
             </div>
             <div className={styles.socialItem}>
-              <img src="/icons/Instagram.svg" alt="Instagram" className={styles.icon} />
-              <span>/sampasx</span>
+              <a href="https://www.instagram.com/sampasx" target="_blank" rel="noopener noreferrer">
+                <img src="/icons/Instagram.svg" alt="Instagram" className={styles.icon} />
+                <span>Instagram</span>
+              </a>
             </div>
             <div className={styles.socialItem}>
-              <img src="/icons/SoundCloud.svg" alt="SoundCloud" className={styles.icon} />
-              <span>/sampasx</span>
+              <a href="https://soundcloud.com/sampasx" target="_blank" rel="noopener noreferrer">
+                <img src="/icons/SoundCloud.svg" alt="SoundCloud" className={styles.icon} />
+                <span>SoundCloud</span>
+              </a>
             </div>
           </div>
-        </div>
+          </div>
 
           <div className={styles.rightSection}>
             <h2 className={styles.title}>Envie um e-mail</h2>

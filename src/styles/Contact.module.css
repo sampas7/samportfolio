@@ -16,7 +16,7 @@
     font-weight: 800;
     font-size: 2.7rem;
     line-height: 1.2;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4); /* Sombra leve */
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
   }
   
   .contactSections {
@@ -73,8 +73,21 @@
     gap: 10px;
   }
   
-  .socialItem span {
-    font-weight: 600;
+  .socialItem a {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: 600; 
+  }
+  
+  .socialItem img {
+    flex-shrink: 0;
+  }
+  
+  .socialItem a:hover {
+    color: #5a2d99;
   }
   
   .emailForm {
@@ -126,8 +139,8 @@
     justify-content: center;
     z-index: 2000;
     opacity: 0;
-    transition: opacity 2s ease-in-out; /* Animação de fade */
-    pointer-events: none; /* Previne cliques quando invisível */
+    transition: opacity 2s ease-in-out;
+    pointer-events: none; 
   }
   
   .modalContainer {
@@ -173,6 +186,5 @@
 
   .modalOverlay.active {
     opacity: 1;
-    pointer-events: auto; /* Permite cliques quando visível */
+    pointer-events: auto;
   }
-  

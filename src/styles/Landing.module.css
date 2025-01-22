@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Faz o conteúdo ocupar toda a altura da tela */
-    background-color: #e0e0e0; /* Cor de fundo */
+    height: 100vh;
+    background-color: #e0e0e0; 
     color: #fff;
   }
   
@@ -29,6 +29,6 @@
   
   .button:hover {
     background-color: #00EF12;
-    color: #432F57; /* Torna o texto legível */
+    color: #432F57;
   }
   

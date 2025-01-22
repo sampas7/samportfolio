@@ -1,5 +1,5 @@
-import Header from '../components/Header'; // Importe o Header
-import Footer from '../components/Footer'; // Importe o Footer
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import styles from '@/styles/Tools.module.css';
 import Head from 'next/head';
 
@@ -38,7 +38,7 @@ const Tools = () => {
             {[0, 1, 2].map((rowIndex) => (
               <div className={styles.row} key={rowIndex}>
                 {tools
-                  .slice(rowIndex * 4, rowIndex * 4 + 4) // Seleciona 4 ferramentas por linha
+                  .slice(rowIndex * 4, rowIndex * 4 + 4)
                   .map((tool, index) => (
                     <div className={styles.square} key={index}>
                       <img

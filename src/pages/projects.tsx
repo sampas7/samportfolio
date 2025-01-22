@@ -1,5 +1,5 @@
-import Header from '../components/Header'; // Importe o Header
-import Footer from '../components/Footer'; // Importe o Footer
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import styles from '@/styles/Projects.module.css';
 import Head from 'next/head';
 
