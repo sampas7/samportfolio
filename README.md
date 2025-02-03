@@ -4,6 +4,10 @@ O **Samportfólio** é um portfólio pessoal desenvolvido como parte da avaliaç
 
 Este projeto utiliza **React** com **Next.js** e **TypeScript** para a construção da interface, além de práticas recomendadas para o desenvolvimento de aplicativos web modernos.
 
+## Figma
+
+https://www.figma.com/design/3nAGRPUbmM5B8t6d3jiXvE/Samportf%C3%B3lio?node-id=0-1&p=f&t=G4TKNhGesaQmexTB-0
+
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
