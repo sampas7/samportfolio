@@ -48,6 +48,7 @@ a:hover {
 
 /* Estilo para o footer e header, para garantir que ocupem a largura total */
 footer, header {
+  font-family: 'Rajdhani', sans-serif;
   width: 100%;
 }
 
