@@ -38,7 +38,7 @@ const Contact = () => {
       console.error("Erro ao enviar mensagem:", error);
       setFeedbackMessage("Erro ao enviar e-mail. Tente novamente mais tarde.");
     } finally {
-      setShowModal(true); // Mostrar modal
+      setShowModal(true);
       setIsSubmitting(false);
     }
   };
@@ -57,7 +57,7 @@ const Contact = () => {
       <main className={styles.mainContainer}>
         <div className={styles.titleTexts}>
           <p className={styles.titlePages}>
-            Dúvidas, ideias ou um papo descontraído? Me chama aí!
+            Dúvidas, freelance ou um papo descontraído? Me chama aí!
           </p>
         </div>
 

@@ -8,17 +8,17 @@
     font-family: 'Rajdhani', sans-serif;
   }
   
-  .titlePage {
+.titlePage {
     font-weight: 800;
     font-size: 2.7rem;
     line-height: 1.2;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4); 
   }
 
-  .projectsContainer {
+.projectsContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 40px;
+    row-gap: 70px;
     padding: 30px;
     justify-items: center;
     margin-top: 50px;
@@ -35,7 +35,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     height: 300px;
-    width: 100%;
     box-sizing: border-box;
     width: 500px;
     border-radius: 10px;
