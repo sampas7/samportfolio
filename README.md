@@ -13,7 +13,7 @@ https://www.figma.com/design/3nAGRPUbmM5B8t6d3jiXvE/Samportf%C3%B3lio?node-id=0-
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 - **Next.js**: Framework React para criação de aplicações web com renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).
 - **TypeScript**: Superset de JavaScript que adiciona tipagem estática e recursos avançados.
-- **CSS**: Estilização responsiva usando CSS Modules.
+- **CSS**: Estilização usando CSS.
 - **Git**: Controle de versão para manter o histórico do projeto.
 
 ## Funcionalidades
